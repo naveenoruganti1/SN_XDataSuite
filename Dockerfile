@@ -16,6 +16,4 @@ WORKDIR /datasuite/xml
 # Copy jar file from build directory into new created directory
 COPY build/libs/SN_XDataSuite-1.0.jar .
 
-EXPOSE 8086
-
 CMD ["java", "-jar", "SN_XDataSuite-1.0.jar"]
